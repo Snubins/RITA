@@ -1,0 +1,45 @@
+*Perform OSINT on RITA and compile information for presentation
+*-Considerations for Demo and Lab
+
+**Considerations
+
+*RITA main uses, primary talking points for presentation and demo/lab
+
+Beaconing Detection: Search for signs of beaconing behavior in and out of your network
+DNS Tunneling Detection Search for signs of DNS based covert channels
+Blacklist Checking: Query blacklists to search for suspicious domains and hosts
+URL Length Analysis: Search for lengthy URLs indicative of malware.
+Scanning Detection: Search for signs of port scans in your network.
+
+*-Talk about Zeek for RITA as RITA uses Zeek logs
+
+##Topics in order:
+
+What is RITA?
+
+What is  RITA used for?
+
+How Zeek(Formerly Bro) is used for RITA
+
+##Topics in order
+
+##
+What is RITA
+
+What is RITA used for
+
+How is RITA implemented in a hunt cycle
+
+How to install RITA
+##
+
+(Topics)
+What is RITA/What is RITA used for:Real Intelligence Threat Analytics (RITA) is an open-source framework for detecting command and control communication through network packet/traffic analysis. The RITA framework could easily ingests Zeek raw logs or could also offline convert network capture files(PCAPs) to Zeek logs for further metadata based analysis.
+
+Network packet capture are normally the first step hunt teaming in any environment. And zeek along-with RITA easy life of threat Hunters by automating some of the tasks of metadata extraction from zeek and importing it to RITA for automated analysis. RITAmay require some basic .yaml file changes to fine tune the analysis.
+
+
+
+(Topics)
+
+
